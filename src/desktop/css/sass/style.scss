@@ -44,18 +44,100 @@ h1,h2,h3,h4,h5{font-size:1em;font-weight:inherit;text-align:center;font-family: 
 body{font-family:$fontfamily,sans-serif;font-weight:400;color: $dark;}
 a{text-decoration:none;color:inherit;outline:0!important}
 button,input,textarea{outline: none;}
-section{
+section,header,footer{
     @include sec();
 }
 
+header{
+    padding-top: 60px;
+    .logo{
+        background-color: black;
+        display: block;
+        float: left;
+        margin-left: 20px;        
+        width: 96px;
+        height: 113px;
+        margin-right: 53px;
+    }
+    h1{
+        float: left;
+        border-right: 2px solid grey;
+        width: 180px;
+        margin-right: 8px;
+        margin-top: 79px;
+        height: 25px;
+        font-weight: 900;
+        font-size: 23px;
+        text-transform: uppercase;
+        line-height: 24px;
+        letter-spacing: 0.6px;
+        padding-left: 6px;
+    }
+    .page-status{
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 15px;
+        float: left;
+        margin-top: 81px;
+    }
+    .right{
 
+        float: right;
+        margin-top: 88px;
+        padding-right: 8px;
+        .lang-link{
+            text-transform: uppercase;
+            float:right;
+            font-size: 15px;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 5px;
+            height: 13px;
+            line-height: 10px;
+            &.link1{
+                
+                width: 28px;
+            }
+            &.link2{
+                width: 31px;
+                border-left: 1px solid black;
+                
+            }
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .soc-link{
+            width: 18px;
+            height: 18px;
+            border-radius: 100%;
+            border:1px solid black;
+            float:right;
+            margin-right: 9px;
+            background-color: white;
+            transition:all 0.25s;
+            &.link1{
+                background-image: url();
+            }
+            &.link2{
+                background-image: url();
+                
+            }
+            &:hover{
+                background-color: grey;
+            }
+
+        }
+    }
+}
 
 #maket {
     position: absolute;
     top: 0px;
-    left: 0;
-    width: 100%;
+    left: -80px;
+    width: 130%;
     background: url(../maket.jpg) no-repeat top center;
+    background: url(../maket.jpg) no-repeat -225px top;
     height: 13200px;
     opacity: 0.5;
     z-index: 10;  
