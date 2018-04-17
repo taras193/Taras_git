@@ -18,7 +18,7 @@ $dark: #141414;
     overflow: hidden;
     position: relative;
     z-index: 2;
-    min-height: 600px;
+    //min-height: 600px;
     height: 100vh;
     background-size: cover!important;
     &>div{
@@ -49,42 +49,46 @@ section,header,footer{
 }
 
 header{
-    padding-top: 60px;
+    padding-top: 30px;
+    height:112px;
+
     .logo{
-        background-color: black;
+        background-image: url(../img/logo.png);
+        width: 60px;
+        height: 82px;
         display: block;
         float: left;
-        margin-left: 20px;        
-        width: 96px;
-        height: 113px;
-        margin-right: 53px;
+        margin-left: 60px;  
     }
     h1{
         float: left;
-        border-right: 2px solid grey;
-        width: 180px;
-        margin-right: 8px;
-        margin-top: 79px;
         height: 25px;
-        font-weight: 900;
-        font-size: 23px;
+        margin-top:51px;
+        margin-left: 19px;
+        color: #000000;
+        font-size: 15px;
+        font-weight: 400;
         text-transform: uppercase;
-        line-height: 24px;
-        letter-spacing: 0.6px;
-        padding-left: 6px;
+        letter-spacing: normal;
+        border-right: 2px solid grey;
+        padding-right: 2px;
+        line-height: 24px;  
     }
     .page-status{
-        font-weight: 900;
-        text-transform: uppercase;
-        font-size: 15px;
         float: left;
-        margin-top: 81px;
+        height: 11px;
+        margin-top:51px;
+        margin-left: 2px;
+        font-weight: 400; 
+        text-transform: uppercase;
+        font-size: 15px; 
+        line-height: 24px;      
+
     }
     .right{
-
         float: right;
-        margin-top: 88px;
-        padding-right: 8px;
+        margin-top: 51px;
+        padding-right: 34px;
         .lang-link{
             text-transform: uppercase;
             float:right;
@@ -92,16 +96,16 @@ header{
             font-weight: 900;
             text-align: center;
             margin-top: 5px;
+            
             height: 13px;
-            line-height: 10px;
+            line-height: 13px;
+
             &.link1{
-                
-                width: 28px;
+                width: 28px;   
             }
             &.link2{
                 width: 31px;
                 border-left: 1px solid black;
-                
             }
             &:hover{
                 text-decoration: underline;
@@ -113,15 +117,17 @@ header{
             border-radius: 100%;
             border:1px solid black;
             float:right;
-            margin-right: 9px;
+            margin-right: 12px;
             background-color: white;
             transition:all 0.25s;
+            margin-top: 3px;            
             &.link1{
                 background-image: url();
+
             }
             &.link2{
                 background-image: url();
-                
+                margin-right: 27px;
             }
             &:hover{
                 background-color: grey;
@@ -131,15 +137,39 @@ header{
     }
 }
 
+nav {
+    float: left;
+    height: 87px;
+    .menu{
+        text-transform: uppercase;
+        margin-left: 227px;
+        margin-top: 97px;
+        height: 120px;
+        color: #000000;
+        font-size: 15px;
+        font-weight: 800;
+
+    }
+    .menu-link{
+        float: right;
+        line-height: 38px;
+    }
+.slider{
+    display: block;
+    height: 670px;
+    float:right;
+}
+
+
+}
+
 #maket {
     position: absolute;
     top: 0px;
-    left: -80px;
-    width: 130%;
+    left: -00px;
+    width: 100%;
     background: url(../maket.jpg) no-repeat top center;
-    background: url(../maket.jpg) no-repeat -225px top;
     height: 13200px;
     opacity: 0.5;
     z-index: 10;  
 }
-

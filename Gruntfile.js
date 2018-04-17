@@ -508,7 +508,7 @@ module.exports = function(grunt) {
 
             change_livereload_port_index: { //cмена порта livereload в index.php
                 files: {
-                    './': ['src/index.html']
+                    './': ['src/desktop/*.html']
                 },
                 options: {
                     replacements: [{
@@ -1262,7 +1262,7 @@ module.exports = function(grunt) {
                     spawn: true,
                     livereload: {
                         host: 'localhost',
-                        port: 8535, //LIVERELOAD_PORT
+                        port: 8732, //LIVERELOAD_PORT
                     }
                 },
                 //при изменеии любых сорс файлов
