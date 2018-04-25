@@ -158,22 +158,104 @@ header {
 
 .section .nav-part {
   height: 40px;
+  float: right; }
+  .section .nav-part p {
+    float: left;
+    margin-top: 11px;
+    margin-right: 13px;
+    font-weight: 800; }
+  .section .nav-part .slider-arrows {
+    float: right; }
+    .section .nav-part .slider-arrows .right-arrow {
+      background-image: url(../img/slider-arrow-right.png);
+      float: left;
+      margin-top: 7px;
+      margin-right: 1px;
+      width: 24px;
+      height: 30px; }
+    .section .nav-part .slider-arrows .left-arrow {
+      background-image: url(../img/slider-arrow-left.png);
+      float: left;
+      margin-top: 7px;
+      width: 25px;
+      height: 30px;
+      border-right: 1px solid black; }
+
+.section .about-area {
   float: right;
-  font-size: 0; }
-  .section .nav-part .right-arrow {
-    background-image: url(../img/slider-arrow-right.png);
-    float: left;
-    margin-top: 7px;
-    margin-right: 1px;
-    width: 24px;
-    height: 30px; }
-  .section .nav-part .left-arrow {
-    background-image: url(../img/slider-arrow-left.png);
-    float: left;
-    margin-top: 7px;
-    width: 25px;
-    height: 30px;
-    border-right: 1px solid black; }
+  width: 1090px;
+  margin-right: 30px; }
+  .section .about-area .about-photo {
+    height: 800px;
+    background-image: url(../img/about-photo.png); }
+
+.section .about-text {
+  margin-top: 51px;
+  font-size: 17px;
+  font-weight: 300; }
+
+.section .miniature-grid-area {
+  float: left;
+  width: 1090px;
+  margin-left: 19px; }
+
+.section .miniature_1 {
+  width: 268px;
+  height: 268px;
+  background-image: url(../img/portfolio/miniatures/miniature-1.png);
+  float: left; }
+
+.section .miniature_2 {
+  width: 268px;
+  height: 268px;
+  background-image: url(../img/portfolio/miniatures/miniature-2.png);
+  float: left;
+  margin-left: 6px; }
+
+.section .miniature_3 {
+  width: 268px;
+  height: 268px;
+  background-image: url(../img/portfolio/miniatures/miniature-3.png);
+  float: left;
+  margin-left: 6px; }
+
+.section .miniature_4 {
+  width: 268px;
+  height: 268px;
+  background-image: url(../img/portfolio/miniatures/miniature-4.png);
+  float: left;
+  margin-left: 6px; }
+
+.section .miniature_5 {
+  width: 268px;
+  height: 268px;
+  background-image: url(../img/portfolio/miniatures/miniature-5.png);
+  float: left;
+  margin-top: 6px; }
+
+.section .miniature_6 {
+  width: 268px;
+  height: 268px;
+  background-image: url(../img/portfolio/miniatures/miniature-6.png);
+  float: left;
+  margin-left: 6px;
+  margin-top: 6px; }
+
+.section .miniature_7 {
+  width: 268px;
+  height: 268px;
+  background-image: url(../img/portfolio/miniatures/miniature-7.png);
+  float: left;
+  margin-left: 6px;
+  margin-top: 6px; }
+
+.section .miniature_8 {
+  width: 268px;
+  height: 268px;
+  background-image: url(../img/portfolio/miniatures/miniature-8.png);
+  float: left;
+  margin-left: 6px;
+  margin-top: 6px; }
 
 #maket {
   position: absolute;
