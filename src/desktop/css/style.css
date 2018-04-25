@@ -72,8 +72,10 @@ header {
     letter-spacing: normal;
     border-right: 2px solid grey;
     padding-right: 2px;
-    line-height: 24px; }
+    line-height: 24px;
+    font-weight: 800; }
   header .page-status {
+    font-weight: 800;
     float: left;
     height: 11px;
     margin-top: 51px;
@@ -156,21 +158,22 @@ header {
 
 .section .nav-part {
   height: 40px;
-  float: right; }
+  float: right;
+  font-size: 0; }
   .section .nav-part .right-arrow {
     background-image: url(../img/slider-arrow-right.png);
-    display: block;
+    float: left;
     margin-top: 7px;
     margin-right: 1px;
     width: 24px;
     height: 30px; }
   .section .nav-part .left-arrow {
     background-image: url(../img/slider-arrow-left.png);
-    display: block;
+    float: left;
     margin-top: 7px;
-    margin-right: 24px;
     width: 25px;
-    height: 30px; }
+    height: 30px;
+    border-right: 1px solid black; }
 
 #maket {
   position: absolute;

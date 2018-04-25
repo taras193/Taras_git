@@ -72,8 +72,10 @@ header{
         border-right: 2px solid grey;
         padding-right: 2px;
         line-height: 24px;  
+            font-weight: 800;
     }
     .page-status{
+            font-weight: 800;
         float: left;
         height: 11px;
         margin-top:51px;
@@ -192,11 +194,16 @@ header{
         .nav-part{
             height: 40px;
             float:right;
+
+            font-size: 0; //використовуэться якщо всередині інлай блоки
             //margin-top: 11px;
             //margin-right: 9px;
             .right-arrow{
                 background-image: url(../img/slider-arrow-right.png);
-                display: block;
+                
+                
+                float:left;     
+
                 margin-top: 7px;
                 margin-right: 1px;
                 width: 24px;
@@ -204,11 +211,14 @@ header{
             }
             .left-arrow{
                 background-image: url(../img/slider-arrow-left.png);
-                display: block;
+
+
+                float:left;                
+
                 margin-top: 7px;
-                margin-right: 24px;
                 width: 25px;
                 height: 30px;
+                border-right: 1px solid black;
 
                
             }            
