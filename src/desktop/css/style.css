@@ -75,7 +75,6 @@ header {
     line-height: 24px;
     font-weight: 800; }
   header .page-status {
-    font-weight: 800;
     float: left;
     height: 11px;
     margin-top: 51px;
@@ -83,7 +82,8 @@ header {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 15px;
-    line-height: 24px; }
+    line-height: 24px;
+    font-weight: 800; }
   header .right {
     float: right;
     margin-top: 51px;
@@ -191,71 +191,59 @@ header {
 
 .section .about-text {
   margin-top: 51px;
-  font-size: 17px;
   font-weight: 300; }
+  .section .about-text article {
+    max-width: 880px;
+    display: block;
+    margin: 40px auto; }
+    .section .about-text article h2 {
+      font-size: 28px;
+      line-height: 42px;
+      margin: 20px 0; }
+    .section .about-text article h3 {
+      font-size: 24px;
+      line-height: 36px;
+      margin: 10px 0;
+      text-align: left; }
+    .section .about-text article h4 {
+      font-size: 20px;
+      line-height: 30px;
+      margin: 20px 0;
+      text-align: left;
+      font-weight: 400; }
+    .section .about-text article p {
+      font-size: 18px;
+      line-height: 26px;
+      margin: 10px 0;
+      text-align: justify; }
+      .section .about-text article p span {
+        text-decoration: underline;
+        font-style: italic;
+        font-weight: 400; }
+    .section .about-text article img {
+      max-width: 700px;
+      display: block;
+      margin: 20px auto; }
+    .section .about-text article ul > li {
+      margin: 4px 0;
+      font-size: 18px;
+      line-height: 26px;
+      list-style-position: inside; }
+      .section .about-text article ul > li:before, .section .about-text article ul > li:after {
+        content: none; }
 
 .section .miniature-grid-area {
   float: left;
   width: 1090px;
   margin-left: 19px; }
-
-.section .miniature_1 {
-  width: 268px;
-  height: 268px;
-  background-image: url(../img/portfolio/miniatures/miniature-1.png);
-  float: left; }
-
-.section .miniature_2 {
-  width: 268px;
-  height: 268px;
-  background-image: url(../img/portfolio/miniatures/miniature-2.png);
-  float: left;
-  margin-left: 6px; }
-
-.section .miniature_3 {
-  width: 268px;
-  height: 268px;
-  background-image: url(../img/portfolio/miniatures/miniature-3.png);
-  float: left;
-  margin-left: 6px; }
-
-.section .miniature_4 {
-  width: 268px;
-  height: 268px;
-  background-image: url(../img/portfolio/miniatures/miniature-4.png);
-  float: left;
-  margin-left: 6px; }
-
-.section .miniature_5 {
-  width: 268px;
-  height: 268px;
-  background-image: url(../img/portfolio/miniatures/miniature-5.png);
-  float: left;
-  margin-top: 6px; }
-
-.section .miniature_6 {
-  width: 268px;
-  height: 268px;
-  background-image: url(../img/portfolio/miniatures/miniature-6.png);
-  float: left;
-  margin-left: 6px;
-  margin-top: 6px; }
-
-.section .miniature_7 {
-  width: 268px;
-  height: 268px;
-  background-image: url(../img/portfolio/miniatures/miniature-7.png);
-  float: left;
-  margin-left: 6px;
-  margin-top: 6px; }
-
-.section .miniature_8 {
-  width: 268px;
-  height: 268px;
-  background-image: url(../img/portfolio/miniatures/miniature-8.png);
-  float: left;
-  margin-left: 6px;
-  margin-top: 6px; }
+  .section .miniature-grid-area .miniature {
+    width: 268px;
+    height: 268px;
+    float: left;
+    margin-right: 6px;
+    margin-top: 6px; }
+    .section .miniature-grid-area .miniature:nth-of-type(4n) {
+      margin-right: 0; }
 
 #maket {
   position: absolute;
